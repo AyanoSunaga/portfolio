@@ -1,0 +1,819 @@
+@charset "UTF-8";
+
+
+
+.header_name{
+    position: absolute;
+    font-size: 11px;
+    color: white;
+    left: 35px;
+    top: 30px;
+    padding-top: 0%;
+}
+
+.header__navigation{
+    display: flex;
+    list-style: none;
+    height: 60px;
+    color: #ffffff;
+    top: 30px;
+
+}
+.nav_item {
+    display: flex ;
+    gap: 40px;
+    list-style:none;
+    width:320px;
+    align-items: center;
+    margin-top: 30px;
+    
+}
+.nav_team{
+    display: flex;
+    list-style: none;
+    width: 370px;
+    margin-top: 30px;
+    gap: 50px;
+    font-size: 18px;
+}
+
+a:visited{
+    color : #c4c4c4;
+  }
+
+a:hover{
+    color : #ff8966;
+  }
+
+  a{
+    text-decoration: none;
+    color:#ffffff;
+  }
+
+
+.section-top{
+    background-image: url(../images/SUNAGA.png),url(../images/AYANO.png);
+    background-position: center 8%,center 90%;
+    background-size: 100%,100%;
+    background-repeat: no-repeat,no-repeat;
+    height: 770px;
+    background-color: #FC5151;
+    padding: 0;
+    margin: 0;
+}
+
+.img-box{
+    width: 80%;
+    position: center;
+    margin-top: 50%;
+    margin-left: 10%;
+
+}
+
+.img-text-1{
+    width: 100%;
+}
+
+
+ .img-text-2{
+    width: 100%;
+ }
+
+ .section-profile{
+    background-image: url(../images/myface.png),url(../images/グループ\ 250.png),url(../images/グループ\ 251.png),url(../images/グループ\ 250.png);
+    background-position: 150px 36%,97% 0%,10% 38%,97% 120%;
+    background-size: 65%,17%,11%,17%;
+    background-repeat: no-repeat,no-repeat;
+
+ }
+
+
+ .profile{
+    color: #191B1D;
+    margin-left: 30px;
+    margin-top: 30px;
+    font-size: 47px;
+    font-family: Courier New;
+    font-weight: lighter;
+ }
+
+ #handwriting{
+    margin-top: 15px;
+    margin-left: 30px;
+    width: 175px;
+ }
+
+ .section-profile_name{
+    margin-left: 30px;
+    font-size: 15px;
+    color: #191B1D;
+    font-family: Courier New;
+    margin-top: 5px;
+    font-weight: lighter;
+ }
+
+ .section-profile_career{
+    margin-left: 30px;
+    font-size: 14px;
+    font-family: ヒラギノ角ゴシック;
+    font-weight: normal;
+    line-height: 20px;
+ }
+
+ .section-profile_item{
+    margin-left: 30px;
+    font-size: 14px;
+    line-height: 40px;
+    margin-top: 175px;
+    color: #191B1D;
+ }
+
+ .section-skill{
+    background-image: url("../images/グループ\ 152.png");
+    background-position: 20px -20%;
+    background-size: 10%,17%,11%;
+    background-repeat: no-repeat,no-repeat;
+ }
+
+ #skill{
+    color: #191B1D;
+    margin-left: 245px;
+    margin-top: 0px;
+    font-size: 40px;
+    font-family: Courier New;
+    font-weight: lighter;
+ }
+
+ .skill-explanation{
+    text-align: right;
+    margin-right: 30px;
+    line-height: 40px;
+    color: #191B1D;
+ }
+
+ .box-row{
+    display: flex;
+    gap: 45px;
+    margin-left: 35px;
+ }
+ .box-row div{
+    flex-basis:27px;
+    gap: 0px;
+ }
+ .box-row img{
+    width: 100%;
+ }
+ 
+ .exprience{
+    background-image: url("../images/グループ\ 152.png"),url(../images/グループ\ 250.png),url(../images/グループ\ 251.png),url(../images/グループ\ 250.png);
+    background-position: 20px 36%,97% 0%,10% 38%,97% 120%;
+    background-size: 11%,17%,11%,17%;
+    background-repeat: no-repeat,no-repeat;
+ }
+
+
+.box3{
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    color: #2c2c2f;
+    width: 193px;
+    height: 30px;
+    background: #191B1D;
+    margin-left: 65px;
+}
+
+.box3 p {
+    margin: 0; 
+    padding-top: 1;
+    color: #ffffff;
+}
+
+.box-row-02{
+    display: flex;
+    flex-direction: column;
+    margin: 20%;
+}
+
+.collection{
+    margin-top: -20px;
+    position: relative;
+    z-index: 1;  
+    background-color: rgba(123, 123, 123, 1);
+    background-image: url("../images/グループ\ 152.png"),url(../images/グループ\ 250.png),url(../images/グループ\ 251.png),url(../images/グループ\ 152.png),
+    url("../images/グループ\ 152.png"),url(../images/グループ\ 250.png),url(../images/グループ\ 251.png),url(../images/グループ\ 152.png);;
+    background-position: 97% 100%,97% 0%,10% 50%,97% 30%,20px 80%,97% 50%,10% 10%,97% 60%;
+    background-size: 11%,17%,11%,17%11%,17%,11%,17%;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    padding-bottom: 15px;
+}
+
+.collection::after{
+    position: absolute;
+    z-index: 2;
+    opacity: 0.3;
+}
+
+.collection-name{
+    color: #ffffff;
+    font-size: 40px;
+    font-family: Courier New;
+    font-weight: lighter;
+    text-align: center;
+    padding-top: 40px;
+}
+
+#collection-name-small{
+    color: #ffffff;
+    font-size: 30px;
+    font-family: Courier New;
+    font-weight: lighter;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.hr{
+    width: 20%;
+    text-align: center;
+}
+
+.collection-design{
+    display: flex;
+    flex-direction: column; 
+    margin: 50px;  
+    gap: 10px;
+    text-align: center; 
+}
+.collection-design div{
+    flex-basis: 70%;
+}
+.collection-design img{
+    width: 280px;
+}
+.collection-design-p{
+    position: relative;
+    display: inline-block;
+    padding-left: 19px;
+    color: #ffffff;
+    text-decoration: none;
+    margin-top: 0px;
+    font-size: 12px;
+}
+.collection-design-p:before {
+    content: '';
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 6px 0 6px 8px;
+    border-color: transparent transparent transparent #FC5151;
+    position:absolute;
+    top: 50%;
+    left: 3%;
+    margin-top: -6px;
+}
+
+.collection-design-1{
+    display: flex;
+    flex-direction: column; 
+    margin: 50px;  
+    gap: 10px;
+    text-align: center; 
+}
+.collection-design-1 div{
+    flex-basis: 70%;
+}
+.collection-design-1 img{
+    width: 280px;
+}
+
+
+.collection-design-p-1{
+    position: relative;
+    display: inline-block;
+    padding-left: 19px;
+    color: #ffffff;
+    text-decoration: none;
+    margin-top: 0px;
+    font-size: 12px;
+}
+
+.collection-design-p-1:before {
+    content: '';
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 6px 0 6px 8px;
+    border-color: transparent transparent transparent #FC5151;
+    position:absolute;
+    top: 50%;
+    left: 3%;
+    margin-top: -6px;
+}
+
+.backtop-sign{
+    text-align: center;
+    color: #191B1D;
+    position: relative;
+    display: inline-block;
+    padding-left: 40%;
+    text-decoration: none;
+    margin-top: 20px;
+
+    font-weight: lighter;
+}
+
+.backtop-sign:before {
+    content: '';
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 6px 0 6px 8px;
+    border-color: transparent transparent transparent #FC5151;
+    position:absolute;
+    top: 50%;
+    left: 55%;
+    margin-top: -6px;
+  }
+
+  .footer-contents{
+    background-color: #FC5151;
+    height: 210px;
+}
+
+.footer-contents_name{
+    color: #ffffff;
+   text-align: center;
+   padding-top: 30px;
+    font-size: 14px;
+}
+
+
+.body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    position: relative;
+}
+#menubar-mobile{
+    display: block;
+    position: absolute;
+    top: 0px;
+}
+
+.header{
+    height: 75px;
+    background-color: #FC5151;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    background: #FC5151;
+  }
+  
+  .logo {
+    font-size: 24px;
+  }
+  
+    
+  /* チェックボックスを非表示にする */
+  .drawer_hidden {
+    display: none;
+  }
+  .nav_item{
+    font-size: 24px;
+    font-family: Courier New;
+    color: #ffffff;
+    margin-top: 50px;
+  }
+
+  /* ハンバーガーアイコンの設置スペース */
+.drawer_open {
+    display: flex;
+    height: 60px;
+    width: 60px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 100;/* 重なり順を一番上にする */
+    cursor: pointer;
+  }
+  
+  /* ハンバーガーメニューのアイコン */
+  .drawer_open span,
+  .drawer_open span:before,
+  .drawer_open span:after {
+    content: '';
+    display: block;
+    height: 3px;
+    width: 25px;
+    border-radius: 3px;
+    background: #ffffff;
+    transition: 0.5s;
+    position: absolute;
+  }
+
+  .drawer_open span{
+    margin-left: 600px;
+  }
+  
+  /* 三本線の一番上の棒の位置調整 */
+  .drawer_open span:before {
+    bottom: 8px;
+  }
+  
+  /* 三本線の一番下の棒の位置調整 */
+  .drawer_open span:after {
+    top: 8px;
+  }
+
+  /* アイコンがクリックされたら真ん中の線を透明にする */
+#drawer_input:checked ~ .drawer_open span {
+    background: rgba(255, 255, 255, 0);
+  }
+  
+  /* アイコンがクリックされたらアイコンが×印になように上下の線を回転 */
+  #drawer_input:checked ~ .drawer_open span::before {
+    bottom: 0;
+    transform: rotate(45deg);
+  }
+  
+  #drawer_input:checked ~ .drawer_open span::after {
+    top: 0;
+    transform: rotate(-45deg);
+  }
+    
+  /* メニューのデザイン*/
+  .nav_content {
+    width: 50%;
+    height: 50%;
+    position: fixed;
+    top: 0;
+    left: 100%; /* メニューを画面の外に飛ばす */
+    z-index: 99;
+    background: #FC5151;
+    transition: .5s;
+    margin-left: 200px;
+  }
+  
+  /* メニュー黒ポチを消す */
+  .nav_list {
+    list-style: none;
+  }
+  
+  /* アイコンがクリックされたらメニューを表示 */
+#drawer_input:checked ~ .nav_content {
+    left: 0;/* メニューを画面に入れる */
+  }
+
+
+  @media screen and (max-width: 390px){
+    .header__navigation{
+    display: none;
+    }
+}
+
+
+@media screen and (min-width: 768px) {
+    .nav{
+        display: none;
+    }
+    .section-top{
+        height: 948px;
+        background-position: center 8%,center 95%;
+        background-size: 120%,100%;
+    }
+    .box-row-02{
+        flex-direction: row;
+        margin-left: 90px;
+        margin-top: 60px;
+    }
+    .img-box{
+        margin-top: 15%;
+        margin-left: 10%;
+
+    }
+    .section-profile{
+        background-position: 300px 15%,97% 0%,10% 38%,97% 120%;
+        background-size: 50%,17%,11%,17%;
+        background-repeat: no-repeat,no-repeat;
+    }
+    .section-profile_name{
+        margin-left: 80px;
+        font-size: 20px;
+        margin-TOP: 3PX;
+     }
+     .profile{
+        margin-left: 80px;
+        margin-top: 60px;
+        font-size: 70px;
+     }
+     #handwriting{
+        margin-left: 80PX;
+        margin-top: 5PX;
+        width: 26%;
+     }
+     .section-profile_career{
+        margin-left: 80px;
+        font-size: 14px;
+        line-height: 20px;
+     }
+     .section-profile_item{
+        margin-left: 80px;
+        font-size: 13.5px;
+        line-height: 35px;
+        margin-top: 60px;
+     }
+     #skill{
+        margin-left: 530px;
+        margin-top: 45px;
+        font-size: 55px;
+     }
+     .skill-explanation{
+        margin-right: 75px;
+        line-height: 35px;
+        margin-top: -30px;
+        font-size: 14px;
+     }
+     .box-row{
+        display: flex;
+        gap: 45px;
+        margin-left: 200px;
+        height: auto;
+        align-items: 80px;
+        height: 150px;
+        align-items: stretch;
+     }
+     .box3{
+        padding: 0.5em 1em;
+        margin: 2em 0;
+        width: 193px;
+        height: 30px;
+        background: #191B1D;
+        margin-left: 270px;
+        margin-top: -50px;
+        
+    }
+    .box-row div{
+        flex-basis:70px;
+        gap: 0px;
+     }
+     .box-row img{
+        width: 50%;
+     }
+     .box-row-02 div{
+        flex-basis:10px;
+        gap: 0px;
+     }
+     .box-row-02 img{
+        width: 37%;
+     }
+     .collection-design{
+        flex-direction: row;
+        margin: 50px;  
+        gap: 30px;
+    }
+    .collection-design div{
+        flex-basis: 280px;
+    }
+    .collection-design img{
+        width: 100%;
+    }
+    .collection{
+        margin-top: -80px;
+    }
+    #collection-name-small{
+        margin-top: -10px;
+    }
+    .collection-design-1{
+        flex-direction: row;
+        margin: 50px;  
+        gap: 30px;
+    }
+    .collection-design-1 div{
+        flex-basis: 280px;
+    }
+    .collection-design-1 img{
+        width: 100%;
+    }
+    .backtop-sign{
+        font-size: 18px;
+        margin-left: 30px;
+    }
+    
+    .backtop-sign:before {
+        content: '';
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 6px 0 6px 8px;
+        border-color: transparent transparent transparent #FC5151;
+        position:absolute;
+        top: 50%;
+        left: 70%;
+        margin-top: -6px;
+      }
+       .section-profile{
+        background-image: url(../images/myface.png),url(../images/グループ\ 250.png),url(../images/グループ\ 251.png),url(../images/グループ\ 250.png);
+        background-position: 330px 25%,97% -70%,2% 100%,97% 70%;
+        background-size: 50%,11%,7%,12%;
+        
+        }
+        .section-skill{
+        background-image: url("../images/グループ\ 152.png");
+        background-position: 30px 20%;
+        background-size: 8%,17%,11%;
+        }
+        .exprience{
+            background-image:url(../images/グループ\ 251.png),url(../images/グループ\ 250.png);
+            background-position: 20px 36%,97% 0%;
+            background-size: 11%,10%;
+         }    
+         .collection{
+            background-image: url("../images/グループ\ 152.png"),url(../images/グループ\ 250.png),url(../images/グループ\ 251.png),url("../images/グループ\ 152.png");
+            background-position: 97% 100%,97% 0%,5% 50%,9% 0%;
+            background-size: 5%,11%,11%,8%;
+        }
+}
+
+
+@media screen and (min-width: 1024px) {
+    .section-top{
+        height: 825px;
+        background-position: center -10%,center 145%;
+        
+    }
+    .box-row-02{
+        flex-direction: row;
+        height: 50%;
+        margin-left: 290px;
+    }
+    .img-box{
+        margin-top: 5%;
+        margin-left: 27%;
+        width: 45%;
+
+    }
+    .section-profile{
+        background-position: 780px 15%,97% 0%,10% 38%,97% 120%;
+        background-size: 30%,17%,11%,17%;
+        background-repeat: no-repeat,no-repeat;
+    }
+
+    .section-profile_name{
+        margin-left: 330px;
+        font-size: 40px;
+        margin-top: 20px;
+    }
+    .profile{
+        color: #191B1D;
+        margin-left: 330px;
+        margin-top: 120px;
+        font-size: 110px;
+    }
+    #handwriting{
+        margin-left: 330PX;
+        margin-top: -30PX;
+        width: 15%;
+     }
+     .section-profile_career{
+        margin-left: 330px;
+        font-size: 15px;
+        font-family: ヒラギノ角ゴシック;
+        font-weight: normal;
+        line-height: 20px;
+     }
+     .section-profile_item{
+        margin-left: 330px;
+        font-size: 18px;
+        line-height: 42px;
+        margin-top: 20px;
+        color: #191B1D;
+     }
+    .spacebreak {
+        display:none;
+    }
+    #skill{
+        margin-left: 880px;
+        margin-top: 65px;
+        font-size: 90px;
+     }
+     .skill-explanation{
+        margin-right: 280px;
+        line-height: 35px;
+        margin-top: -40px;
+        font-size: 17px;
+     }
+     .box-row{
+        display: flex;
+        gap: 45px;
+        margin-left: 650px;
+        height: auto;
+        align-items: 80px;
+        height: 150px;
+        align-items: stretch;
+        margin-top: 60px;
+     }
+     .box3{
+        padding: 0.5em 1em;
+        margin: 2em 0;
+        width: 193px;
+        height: 30px;
+        background: #191B1D;
+        margin-left: 270px;
+        margin-top: -0px;
+        margin-left: 600px;
+        
+    }
+    .box-row div{
+        flex-basis:70px;
+        gap: 0px;
+     }
+     .box-row img{
+        width: 60%;
+     }
+     .box-row-02 div{
+        flex-basis:40px;
+        gap: 0px;
+     }
+     .box-row-02 img{
+        width: 34%;
+     }
+     .collection-design{
+        flex-direction: row;
+        margin: 50px;  
+        gap: 30px;
+        margin-left: 250px;
+        font-size: 16px;
+    }
+    .collection-design div{
+        flex-basis: 300px;
+    }
+    .collection-design img{
+        width: 100%;
+    }
+    .collection{
+        margin-top: -80px;
+    }
+    #collection-name-small{
+        margin-top: 30px;
+
+    }
+    .collection-design-1{
+        flex-direction: row;
+        margin: 50px;  
+        gap: 30px;
+        margin-left: 250px;
+    }
+    .collection-design-1 div{
+        flex-basis: 300px;
+    }
+    .collection-design-1 img{
+        width: 100%;
+    }
+    .backtop-sign{
+        font-size: 18px;
+        margin-left: 110px;
+    }
+    
+    .backtop-sign:before {
+        content: '';
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 6px 0 6px 8px;
+        border-color: transparent transparent transparent #FC5151;
+        position:absolute;
+        top: 50%;
+        left: 80%;
+        margin-top: -6px;
+      }
+      .section-profile{
+        background-image: url(../images/myface.png),url(../images/グループ\ 250.png),url(../images/グループ\ 251.png),url(../images/グループ\ 250.png);
+        background-position: 730px 25%,10% -70%,2% 110%,97% 100%;
+        background-size: 35%,10%,5%,10%;
+        }
+        .section-skill{
+        background-image: url("../images/グループ\ 152.png");
+        background-position: 100px 10%;
+        background-size: 5%,17%,11%;
+        }
+        .exprience{
+            background-image: url("../images/グループ\ 152.png"),url(../images/グループ\ 250.png);
+            background-position: 96% 36%,5% 0%;
+            background-size: 9%,10%;
+            background-repeat: no-repeat,no-repeat;
+         }
+         .collection{
+            background-image: url("../images/グループ\ 152.png"),url(../images/グループ\ 250.png),url(../images/グループ\ 251.png);
+            background-position: 97% 100%,97% 0%,5% 50%;
+            background-size: 4%,10%,10%;
+        }
+        .nav_team {
+            gap: 100px;
+            width: 600px;
+            font-size: 22px;
+        }
+}
